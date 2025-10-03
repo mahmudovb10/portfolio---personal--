@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.heroImg {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}

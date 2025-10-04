@@ -10,10 +10,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_wszp4o9", // SERVICE ID
-        "template_u9xbyeg", // TEMPLATE ID
+        "service_wszp4o9",
+        "template_u9xbyeg",
         form.current,
-        "nIdfdldPYcfb5buo5" // PUBLIC KEY
+        "nIdfdldPYcfb5buo5"
       )
       .then(
         (result) => {
@@ -31,14 +31,12 @@ const Contact = () => {
     <section id="contact" className="py-20 text-gray-900">
       <h2 className="text-4xl font-bold text-center mb-12">Contact Me</h2>
       <div className="max-w-3xl mx-auto flex flex-col md:flex-row gap-10">
-        {/* Chap tomon - kontakt ma'lumotlari */}
         <motion.div
           className="flex-1 space-y-6"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
         >
-          {/* Telefon */}
           <a
             href="tel:+998775007434"
             className="flex items-center space-x-3 text-lg font-medium text-gray-800 hover:text-blue-600 transition"
@@ -47,7 +45,6 @@ const Contact = () => {
             <span>+998 77 500 74 34</span>
           </a>
 
-          {/* Telegram */}
           <a
             href="https://t.me/bahodirkhonn"
             target="_blank"
@@ -58,7 +55,6 @@ const Contact = () => {
             <span>Telegram</span>
           </a>
 
-          {/* LinkedIn */}
           <a
             href="https://www.linkedin.com/in/bahodirxon-mahmudov-561096353/"
             target="_blank"
@@ -70,7 +66,6 @@ const Contact = () => {
           </a>
         </motion.div>
 
-        {/* O'ng tomon - forma */}
         <motion.form
           ref={form}
           onSubmit={sendEmail}

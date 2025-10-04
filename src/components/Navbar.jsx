@@ -17,7 +17,7 @@ const Navbar = () => {
             duration={800}
             className="cursor-pointer hover:text-blue-500"
           >
-            Home
+            Bosh Sahifa
           </Link>
           <Link
             to="projects"
@@ -25,7 +25,7 @@ const Navbar = () => {
             duration={800}
             className="cursor-pointer hover:text-blue-500"
           >
-            Projects
+            Loyihalar
           </Link>
           <Link
             to="contact"
@@ -33,7 +33,7 @@ const Navbar = () => {
             duration={800}
             className="cursor-pointer hover:text-blue-500"
           >
-            Contact
+            Bog'lanish Uchun
           </Link>
         </div>
         <div className="md:hidden">

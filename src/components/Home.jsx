@@ -31,14 +31,16 @@ const Home = () => {
             transition={{ duration: 1.2, delay: 0.5 }}
           >
             <li>
-              📚 <span className="font-semibold">Education </span>— Na'jot
-              Ta'lim Frontend React kursida 8 oy o‘qidim
+              📚 <span className="font-semibold">Education: </span>— Na'jot
+              Ta'lim Frontend React kursida 8 oy Tahsil Oldim
             </li>
             <li>
-              ⚡ Yoshim: <span className="font-semibold">19</span>
+              <span className="font-semibold">⚡ Yoshim:</span> <span>19</span>
             </li>
             <li>
-              🛠 Biladigan texnologiyalarim:
+              <span className="font-semibold">
+                🛠 O'rgangan texnologiyalarim:
+              </span>
               <span className="ml-2 text-blue-700 font-semibold">
                 HTML, CSS, JS, React, Sass, TypeScript, Tailwind
               </span>
